@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* кінець зкидання */
+
+@font-face {
+    font-family: Regular;
+    src: url(./fonts/PlusJakartaSans-Regular.ttf);
+}
+html{
+    font-family: Regular;
+}
+
+header {
+    background: url(/img/bg.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.header-navbar{
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 25px;
+}
+.header-navbar-right li a{
+    color: White!important;
+    font-weight: bold;
+}
+ul.header-navbar-right{
+    margin-top: 9px;
+}
+.header-button{
+    color: rgb(255, 46, 46)!important;
+    border: 1px solid rgb(255, 46, 46);
+    border-radius: 25px;
+}
+.header-title{
+    width: 70%;
+    margin: 100px auto 0px;
+    color: white;
+}
+.header-title h1{
+    font-size: 20px;
+    text-align: center;
+}
+.header-title p{
+    font-size: 17px;
+    color: rgb(221, 207, 207);
+    text-align: center;
+}
+.header-search{
+    width: 60%;
+    margin: 40px auto 0px;
+}
+.search{
+    width: 75%;
+    padding: 7px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 25px;
+    font-size: 14px;
+    border: 2px solid white;
+    outline: none;
+}
+.submit{
+    width: 25%;
+    margin-left: -5px;
+    padding: 9px;
+    border-radius: 0 20px 20px 0;
+    background: rgb(231, 92, 115);
+    color: white;
+    font-size: 14px;
+    outline: none;
+    border: 2px solid rgb(231, 92, 115);
+}
+.header-user{
+    width: 40%;
+    margin: 80px auto 0;
+}
+.header-user>div{
+    background: rgb(241, 231, 231);
+    margin-top: 10px;
+    border-radius: 25px;
+    position: relative;
+    height: 93px;
+    width: 100%;
+}
+.user-text{
+    width:70%;
+    margin: auto;
+
+}
+.user-text>p{
+    text-align: left;
+    /* padding-top: 27px;
+    padding-left: 48px; */
+    /* font-size: 14px; */
+}
+
+
+.user-left{
+    left:-20px;
+}
+.user-right{
+    right:-15px;
+}
+.user-left img{
+    position: absolute;
+    left: -40px;
+    top: 6.7px;
+    width: 80px;
+}
+
+.user-right img{
+    position: absolute;
+    right: -40px;
+    top: 8px;
+    width: 80px;
+    height: 80px;
+}
+
+
+@media(min-width:768px){
+
+}
+
+@media(min-width:1000px){
+    
+}
+
+@media(min-width:1200px){
+   
+}
+
