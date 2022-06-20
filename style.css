@@ -60,7 +60,7 @@ header {
 .header-navbar{
     background-color: transparent;
     border-color: transparent;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .header-navbar-right li a{
     color: White!important;
@@ -75,7 +75,7 @@ ul.header-navbar-right{
     border-radius: 25px;
 }
 .header-title{
-    width: 70%;
+    width: 50%;
     margin: 100px auto 0px;
     color: white;
 }
@@ -90,7 +90,7 @@ ul.header-navbar-right{
 }
 .header-search{
     width: 60%;
-    margin: 40px auto 0px;
+    margin: 60px auto 0px;
 }
 .search{
     width: 75%;
@@ -109,25 +109,29 @@ ul.header-navbar-right{
     background: rgb(231, 92, 115);
     color: white;
     font-size: 14px;
-    outline: none;
     border: 2px solid rgb(231, 92, 115);
+    outline: none;
 }
 .header-user{
-    width: 40%;
+    width: 45%;
     margin: 80px auto 0;
 }
-.header-user>div{
+.chat{
     background: rgb(241, 231, 231);
     margin-top: 10px;
-    border-radius: 25px;
+    border-radius: 30px;
     position: relative;
-    height: 93px;
-    width: 100%;
+    padding: 35px;
 }
 .user-text{
-    width:70%;
+    width:90%;
     margin: auto;
-
+}
+.chat-left{
+    padding-left: 24px;
+}
+.chat-right{
+    padding-right: 24px;
 }
 .user-text>p{
     text-align: left;
@@ -135,7 +139,6 @@ ul.header-navbar-right{
     padding-left: 48px; */
     /* font-size: 14px; */
 }
-
 
 .user-left{
     left:-20px;
@@ -146,21 +149,245 @@ ul.header-navbar-right{
 .user-left img{
     position: absolute;
     left: -40px;
-    top: 6.7px;
+    top: 0px;
     width: 80px;
+    height: 80px;
 }
 
 .user-right img{
     position: absolute;
     right: -40px;
-    top: 8px;
+    top: 0px;
     width: 80px;
     height: 80px;
 }
+.row{
+    padding: 170px 0px!important;
+}
+#float{
+    clear: both;
+    display: table;
+}
+.img-left img{
+    height: 100%;
+    width: 100%;
+}
+.img-left{
+    height: 350px;
+    width: 450px;
+    float: right;
+    margin-right: 50px;
+}
+.paragraph {
+    width: 50%;
+    margin: 25px 20px;  
+}
+.p-left{
+    float: left;
+}
+.paragraph h2{
+    font-weight: bold;
+    font-size: 25px;   
+}
+.paragraph img{
+    margin: 5px 0px 15px -5px;
+}
+.paragraph p{
+    margin-bottom: 13px;
+    color: grey;
+}
+.p-right button{
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    margin-bottom: 25px;
+    color: pink;
+    margin-left: -5px;
+}
+.stats{
+    position: relative;
+}
+.stats h2{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.stats p{
+    font-size: 13px;
+}
+.stats-left{
+    position: absolute;
+}
+.stats-right{
+    position: absolute;
+    right: -70px;
+    top: 0.95px;
+}
+.linien{
+    background-color: rgb(167, 164, 164);
+    width: 2px;
+    height: 45px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+}
+
+/* .img-2-left img{
+    height: 100%;
+    width: 100%;
+}
+.img-2-left{
+    height: 350px;
+    width: 400px;
+    float: right;
+    margin-right: 50px;
+} */
+
+button.Read-more {
+    background: rgb(224, 65, 91);
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    font-size: 10px;
+}
+.main-3-body{
+    width: 80%;
+    margin: 0px 20px;
+    text-align: left;    
+}
+.img-right img{
+    height: 100%;
+    width: 100%;
+}
+.img-right{
+    height: 350px;
+    width: 450px;
+    float: left;
+    margin-left: 50px;
+}
+.p-left{
+    float: right;
+}
+.main-underline{
+    width: 80%;
+    margin: auto;
+}
+.main-underline img{
+    width: 100%;
+}
+.p-top h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;  
+}
+.p-top p{
+    text-align: center;
+    color: grey;
+    margin: 15px 0px 55px;
+}
+.fourth-row-img img{
+    width: 100%;
+}
+.fourth-row-img{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+}
+#fourth-row-col1{
+    margin-bottom: 100px;
+}
+.fourth-row-footer{
+    width: 100%;
+}
+#fourth-row-footer-col{
+    position: relative;
+}
+img.fourth-row-footer-icon1{
+    width: 45px;
+    height: 48px;
+    position: absolute;
+    top: 2px;
+    left: 47px;
+    /* box-sizing: border-box; */
+}
+img.fourth-row-footer-icon2{
+    width: 53px;
+    height: 42px;
+    position: absolute;
+    top: 2px;
+    left: 49px;
+}
+img.fourth-row-footer-icon3{
+    width: 45px;
+    height: 48px;
+    position: absolute;
+    top: 2px;
+    left: 40px;
+}
+.fourth-row-footer p{
+    /* text-align: left; */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.fourth-row-footer h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.fourth-row-footer-paragraph{
+    float: right;
+}
+.fourth-row-footer-paragraph p{
+    color: grey;
+    text-align: left;
+}
+.fourth-row-footer-underscore img{
+    background-color: grey;
+    outline: none;
+    width: 100%;
+}
+.fifth-row{
+    background-color: rgb(228, 225, 225);
+}
 
 
-@media(min-width:768px){
 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+    .header-search{
+        width: 85%;
+    }
+    .header-user{
+        width: 55%;
+    }
+    .chat{
+        padding: 28px;
+    }
+}
+
+@media (max-width:485px) {
+    .header-search{
+        width: 90%;
+    }
+    .header-user{
+        width: 60%;
+    }
+    .chat{
+        padding: 20px;
+    }
 }
 
 @media(min-width:1000px){
