@@ -80,9 +80,11 @@ ul.header-navbar-menu{
     margin-top: 10px;
 }
 .navbar-menu-button{
-    color: rgb(255, 46, 46)!important;
-    border: 1px solid rgb(255, 46, 46);
+    border: 1px solid rgb(231, 92, 115);
     border-radius: 25px;
+}
+li.navbar-menu-button>a{
+    color: rgb(231, 92, 115)!important;
 }
 
 .header-title{
@@ -124,7 +126,7 @@ ul.header-navbar-menu{
     outline: none;
 }
 .header-user{
-    width: 45%;
+    width: 40%;
     margin: 80px auto 0;
 }
 .chat{
@@ -146,11 +148,7 @@ ul.header-navbar-menu{
 }
 .user-text>p{
     text-align: left;
-    /* padding-top: 27px;
-    padding-left: 48px; */
-    /* font-size: 14px; */
 }
-
 .user-left{
     left:-20px;
 }
@@ -164,7 +162,6 @@ ul.header-navbar-menu{
     width: 80px;
     height: 80px;
 }
-
 .user-right img{
     position: absolute;
     right: -40px;
@@ -177,23 +174,31 @@ ul.header-navbar-menu{
 }
 
 
-.paragraph {
-    width: 80%;
-    margin: 25px 20px;  
-}
 
-.paragraph h2{
+
+
+
+.main-body-header h2{
     font-weight: bold;
     font-size: 25px;   
 }
-.paragraph img{
-    margin: 5px 0px 15px -5px;
+.body-header-footer-line img{
+    width: 100%;
+    height: 100%;
 }
-.paragraph p{
+.body-header-footer-line{
+    margin: 10px 0px 10px;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.main-body-paragraph{
     margin-bottom: 13px;
     color: grey;
+    width: 100%;
 }
-.p-right button{
+.main-body-button button{
     text-decoration: underline;
     background: transparent;
     border: none;
@@ -218,7 +223,7 @@ ul.header-navbar-menu{
     float: left;
     margin-left: 25px;
 }
-.linien{
+.stats-linier{
     background-color: rgb(167, 164, 164);
     width: 2px;
     height: 45px;
@@ -227,18 +232,11 @@ ul.header-navbar-menu{
     left: 135px;
 }
 
-/* .img-2-left img{
-    height: 100%;
+.img-container img{
     width: 100%;
 }
-.img-2-left{
-    height: 350px;
-    width: 400px;
-    float: right;
-    margin-right: 50px;
-} */
 
-button.Read-more {
+button.main-body-button_read {
     background: rgb(224, 65, 91);
     color: white;
     text-transform: capitalize;
@@ -247,14 +245,12 @@ button.Read-more {
     padding: 15px 50px;
     font-size: 10px;
 }
-.main-3-body{
-    width: 80%;
-    margin: 0px 20px;
-    text-align: left;    
+.main-body-container{
+    width: 95%;
+    margin: auto;   
 }
-
-.img-right{
-    margin-left: 50px;
+.second-row-container{
+    /* float: right; */
 }
 
 .main-underline{
@@ -336,8 +332,8 @@ img.fourth-row-footer-icon3{
 
 
 @media (min-width:768px)and(max-width:992px){
-    .header-navbar-menu {
-
+    .header-navbar-menu>li>a{
+        padding: 20px!important;
     }
 }
 
