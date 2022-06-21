@@ -164,27 +164,13 @@ ul.header-navbar-right{
 .row{
     padding: 170px 0px!important;
 }
-#float{
-    clear: both;
-    display: table;
-}
-.img-left img{
-    height: 100%;
-    width: 100%;
-}
-.img-left{
-    height: 350px;
-    width: 450px;
-    float: right;
-    margin-right: 50px;
-}
+
+
 .paragraph {
-    width: 50%;
+    width: 80%;
     margin: 25px 20px;  
 }
-.p-left{
-    float: left;
-}
+
 .paragraph h2{
     font-weight: bold;
     font-size: 25px;   
@@ -201,7 +187,7 @@ ul.header-navbar-right{
     background: transparent;
     border: none;
     margin-bottom: 25px;
-    color: pink;
+    color: rgb(241, 95, 120);
     margin-left: -5px;
 }
 .stats{
@@ -215,12 +201,11 @@ ul.header-navbar-right{
     font-size: 13px;
 }
 .stats-left{
-    position: absolute;
+    float: left;
 }
 .stats-right{
-    position: absolute;
-    right: -70px;
-    top: 0.95px;
+    float: left;
+    margin-left: 25px;
 }
 .linien{
     background-color: rgb(167, 164, 164);
@@ -228,7 +213,7 @@ ul.header-navbar-right{
     height: 45px;
     position: absolute;
     top: 5px;
-    left: 140px;
+    left: 135px;
 }
 
 /* .img-2-left img{
@@ -256,19 +241,11 @@ button.Read-more {
     margin: 0px 20px;
     text-align: left;    
 }
-.img-right img{
-    height: 100%;
-    width: 100%;
-}
+
 .img-right{
-    height: 350px;
-    width: 450px;
-    float: left;
     margin-left: 50px;
 }
-.p-left{
-    float: right;
-}
+
 .main-underline{
     width: 80%;
     margin: auto;
@@ -286,44 +263,38 @@ button.Read-more {
     color: grey;
     margin: 15px 0px 55px;
 }
-.fourth-row-img img{
-    width: 100%;
+
+.fourth-row-footer{
+    display: table;
 }
-.fourth-row-img{
-    width: 800px;
-    height: 400px;
-    margin: auto;
-}
-#fourth-row-col1{
+ #fourth-row-col1{
     margin-bottom: 100px;
 }
-.fourth-row-footer{
-    width: 100%;
-}
+
 #fourth-row-footer-col{
-    position: relative;
+    display: table-cell;
 }
 img.fourth-row-footer-icon1{
     width: 45px;
     height: 48px;
-    position: absolute;
+    /* position: absolute;
     top: 2px;
-    left: 47px;
-    /* box-sizing: border-box; */
+    left: 47px; */
+    
 }
 img.fourth-row-footer-icon2{
     width: 53px;
     height: 42px;
-    position: absolute;
+    /* position: absolute;
     top: 2px;
-    left: 49px;
+    left: 49px; */
 }
 img.fourth-row-footer-icon3{
     width: 45px;
     height: 48px;
-    position: absolute;
+    /* position: absolute;
     top: 2px;
-    left: 40px;
+    left: 40px; */
 }
 .fourth-row-footer p{
     /* text-align: left; */
@@ -351,16 +322,6 @@ img.fourth-row-footer-icon3{
 .fifth-row{
     background-color: rgb(228, 225, 225);
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
