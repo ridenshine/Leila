@@ -43,15 +43,25 @@ table {
 
 /* кінець зкидання */
 
+
+
+
+
+
+
+
+
+
 @font-face {
     font-family: Regular;
     src: url(./fonts/PlusJakartaSans-Regular.ttf);
 }
+
 html{
     font-family: Regular;
 }
 
-header {
+header{
     background: url(/img/bg.png) no-repeat;
     background-size: cover;
     width: 100%;
@@ -60,20 +70,21 @@ header {
 .header-navbar{
     background-color: transparent;
     border-color: transparent;
-    margin-top: 20px;
+    padding-top: 20px;
 }
-.header-navbar-right li a{
+.header-navbar-menu>li>a{
     color: White!important;
     font-weight: bold;
 }
-ul.header-navbar-right{
-    margin-top: 9px;
+ul.header-navbar-menu{
+    margin-top: 10px;
 }
-.header-button{
+.navbar-menu-button{
     color: rgb(255, 46, 46)!important;
     border: 1px solid rgb(255, 46, 46);
     border-radius: 25px;
 }
+
 .header-title{
     width: 50%;
     margin: 100px auto 0px;
@@ -324,10 +335,14 @@ img.fourth-row-footer-icon3{
 }
 
 
+@media (min-width:768px)and(max-width:992px){
+    .header-navbar-menu {
+
+    }
+}
 
 
-
-@media (max-width:768px){
+/* @media (max-width:768px){
     .header-search{
         width: 85%;
     }
@@ -357,5 +372,5 @@ img.fourth-row-footer-icon3{
 
 @media(min-width:1200px){
    
-}
+} */
 
