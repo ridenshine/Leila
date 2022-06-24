@@ -201,48 +201,48 @@ li.navbar-menu-button>a{
 .row-style{
     padding: 330px 0px 305px!important;
 }
-/* .main-body-container{
+.main-body-container{
     width: 100%;
-    margin: 30px 0px 0px 120px;   
-} */
+    /* margin: 30px 0px 0px 120px;    */
+}
 .main-body-header img{
     margin-left: -7px;
-    width: 100px;
+    /* width: 100px; */
 }
 .main-body-header h2{
     font-weight: bold;
-    font-size: 60px;  
-    margin-bottom: 20px;
-    width: 500px;
+    font-size: 30px;  
+    margin-bottom: 10px;
 }
 
 .main-body-paragraph{
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 23px;
     color: grey;
-    width: 550px;
+    width: 70%;
 }
 .main-body-paragraph p{
-    font-size: 30px;
+    font-size: 15px;
 }
 .main-body-button button{
     text-decoration: underline;
     background: transparent;
     border: none;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
     color: rgb(241, 95, 120);
     margin-left: -5px;
-    font-size: 22px;
+    font-size: 14px;
 }
-.stats{
+/* .stats{
     width: 700px;
-}
+} */
 .stats h2{
-    font-size: 75px;
+    font-size: 35px;
     font-weight: lighter;
+    margin-bottom: 5px;
 }
 .stats p{
-    font-size: 25px;
+    font-size: 13px;
     color: grey;
 }
 .stats-left{
@@ -250,25 +250,21 @@ li.navbar-menu-button>a{
 }
 .stats-right{
     float: left;
-    margin-left: 95px;
+    margin-left: 35px;
     position: relative;
 }
 .stats-linier{
     background-color: rgb(167, 164, 164);
     width: 2px;
-    height: 100px;
+    height: 50px;
     position: absolute;
-    top: 10px;
-    left: -45px;
+    top: 5px;
+    left: -17px;
 }
 
 .img-container img{
     width: 100%;
 }
-/* .rows-img img{
-    width: 900px!important;
-    margin-left: -130px!important;
-} */
 
 button.main-body-button_read {
     background: rgb(224, 65, 91);
@@ -278,9 +274,6 @@ button.main-body-button_read {
     border-radius: 25px;
     padding: 15px 50px;
     font-size: 10px;
-}
-.second-row-container{
-    /* float: right; */
 }
 
 .main-underline{
