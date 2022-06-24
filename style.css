@@ -199,12 +199,16 @@ li.navbar-menu-button>a{
 
 
 .row-style{
-    padding: 330px 0px 305px!important;
+    padding: 230px 0px 205px!important;
+}
+.rows-container{
+    width: 70%;
+    margin: auto;
 }
 .main-body-container{
-    width: 100%;
-    /* margin: 30px 0px 0px 120px;    */
+    margin: 30px 0px 0px 50px;
 }
+
 .main-body-header img{
     margin-left: -7px;
     /* width: 100px; */
@@ -219,7 +223,7 @@ li.navbar-menu-button>a{
     margin-top: 20px;
     margin-bottom: 23px;
     color: grey;
-    width: 70%;
+    width: 80%;
 }
 .main-body-paragraph p{
     font-size: 15px;
@@ -274,12 +278,10 @@ button.main-body-button_read {
     border-radius: 25px;
     padding: 15px 50px;
     font-size: 10px;
+    outline: none;
+    border: none;
 }
 
-.main-underline{
-    width: 80%;
-    margin: auto;
-}
 .main-underline img{
     width: 100%;
 }
@@ -294,55 +296,52 @@ button.main-body-button_read {
     margin: 15px 0px 55px;
 }
 
-.fourth-row-footer{
-    display: table;
-}
+
  #fourth-row-col1{
     margin-bottom: 100px;
 }
 
-#fourth-row-footer-col{
+.fourth-row-footer-first{
     display: table-cell;
 }
+
 img.fourth-row-footer-icon1{
     width: 45px;
     height: 48px;
-    /* position: absolute;
+    position: absolute;
     top: 2px;
-    left: 47px; */
+    left: -5px;
     
 }
 img.fourth-row-footer-icon2{
     width: 53px;
     height: 42px;
-    /* position: absolute;
+    position: absolute;
     top: 2px;
-    left: 49px; */
+    left: -11px;
 }
 img.fourth-row-footer-icon3{
     width: 45px;
     height: 48px;
-    /* position: absolute;
+    position: absolute;
     top: 2px;
-    left: 40px; */
-}
-.fourth-row-footer p{
-    /* text-align: left; */
-    margin-top: 20px;
-    font-weight: bold;
+    left: -5px;
 }
 
-.fourth-row-footer h3{
-    font-size: 18px;
+.fourth-row-footer-container{
+    margin-left: 40px;
+}
+.fourth-row-footer-container h3{
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.fourth-row-footer-paragraph{
-    float: right;
-}
+
 .fourth-row-footer-paragraph p{
     color: grey;
     text-align: left;
+    font-size: 14px;
+    font-weight: 600;
 }
 .fourth-row-footer-underscore img{
     background-color: grey;
