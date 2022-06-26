@@ -106,7 +106,7 @@ li.navbar-menu-button>a{
     margin: auto; */
 }
 .header-title-container{
-    margin: 220px auto 0px;
+    margin: 190px auto 0px;
     color: white;
 }
 .header-title h1{
@@ -186,14 +186,14 @@ li.navbar-menu-button>a{
 .chat-user img{
     position: absolute;
     left: -40px;
-    top: 10px;
+    top: 6px;
     width: 80px;
     height: 80px;
 }
 .chat-ai img{
     position: absolute;
     right: -40px;
-    top: 10px;
+    top: 6px;
     width: 80px;
     height: 80px;
 }
@@ -292,6 +292,11 @@ button.main-body-button_read {
 .main-underline img{
     width: 100%;
 }
+.main-underline{
+    margin: auto;
+    width: 90%;
+    border-radius: 35px;
+}
 .p-top h2{
     text-align: center;
     font-weight: bold;
@@ -316,8 +321,7 @@ img.fourth-row-footer-icon1{
     width: 45px;
     height: 48px;
     position: absolute;
-    top: px;
-    left: 15px;
+    left: 45px;
     
 }
 img.fourth-row-footer-icon2{
@@ -325,18 +329,17 @@ img.fourth-row-footer-icon2{
     height: 42px;
     position: absolute;
     top: 2px;
-    left: 5px;
+    left: 45px;
 }
 img.fourth-row-footer-icon3{
     width: 45px;
     height: 48px;
     position: absolute;
-    top: px;
-    left: 15px;
+    left: 45px;
 }
 
 .fourth-row-footer-container{
-    margin-left: 51.7px;
+    margin-left: 100.7px;
 }
 .fourth-row-footer-container h3{
     font-size: 15px;
@@ -360,6 +363,10 @@ img.fourth-row-footer-icon3{
     margin-top: 20px;
     margin-left: px;
 }
+.fifth-row-text-style{
+    margin-left: 30px;
+    margin-top: 20px;
+}
 .fifth-row-style{
     background-color: rgb(250, 243, 243);
 }
@@ -370,22 +377,96 @@ img.fourth-row-footer-icon3{
 .felix-paragraph{
     margin-left: 50px;
 }
+.felix-paragraph h3{
+    font-weight: bold;
+    color: black;
+}
 .felix-logo{
     background: rgb(201, 197, 197);
     border-radius: 50px;
     width: 40px;
     height: 40px;
     position: absolute;
-    top: 0;
+    top: -5px;
     left: 0;
+}
+.fifth-row-body{
+    /* width: 85%; */
 }
 .fifth-row-body p{
     color: black;
-    font-weight: ;
+    font-size: 15px;
+}
+.fifth-row-paragraph{
+    width: 70%;
+    margin-bottom: 13px;
+    color: rgb(139, 137, 137);
+}
+.felix-paragraph h3,
+.felix-paragraph p{
+    font-size: 15px;
+}
+.sixth-main-container{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.footer{
+    background-color: rgb(250, 243, 243);
+}
+.footer-style{
+    padding: 50px 0px 50px!important;
+}
+.footer-container{
+    width: 70%;
+    margin: auto;
+}
+.footer-paragraph2::before{
+    content: '\00A9';
+    position: absolute;
+    top: 0;
+    left: -15px;
+}
+.footer-logo{
+    margin-bottom: 15px;
+}
+.footer-paragraph3{
+    float: right;
+}
+.footer-paragraph3 a{
+    color: black;
+}
+.footer-icons{
+    float: right;
+    padding-bottom: 10px;
+    margin-top: 35px;
+}
+.footer-icons>a{
+    padding-left: 10px;
+}
+.footer-icons>a>img{
+    width: 20px;
+    height: 20px;
+}
+.footer-paragraph2{
+    position: absolute;
+    margin-top: 69px;
+    margin-left: 110px;
 }
 
-
-
+@media (min-width:992px) and (max-width:1283px){
+    .stats-left{
+        float: none;
+        margin-bottom: 15px;
+    }
+    .stats-right{
+    margin-left: 0px;
+    float:none;
+}
+.stats-linier{
+    background-color: transparent;
+}
+}
 @media (min-width:768px) and (max-width:992px){
     .header-navbar-menu>li>a{
         padding: 20px!important;
@@ -402,35 +483,5 @@ img.fourth-row-footer-icon3{
 }
 }
 
-/* @media (max-width:768px){
-    .header-search{
-        width: 85%;
-    }
-    .header-user{
-        width: 55%;
-    }
-    .chat{
-        padding: 28px;
-    }
-}
 
-@media (max-width:485px) {
-    .header-search{
-        width: 90%;
-    }
-    .header-user{
-        width: 60%;
-    }
-    .chat{
-        padding: 20px;
-    }
-}
-
-@media(min-width:1000px){
-    
-}
-
-@media(min-width:1200px){
-   
-} */
 
